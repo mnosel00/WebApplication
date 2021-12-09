@@ -28,8 +28,7 @@ namespace WebApplication.Controllers
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
             Car car = db.Cars.Find(id);
-            //Robie test gita
-            //Kolejny test dla gita
+         
             if (car == null)
             {
                 return HttpNotFound();

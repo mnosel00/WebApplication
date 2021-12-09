@@ -23,5 +23,6 @@ namespace WebApplication.Models
     public class CarDBContext : DbContext
     {
         public DbSet<Car> Cars { get; set; }
+        
     }
 }
